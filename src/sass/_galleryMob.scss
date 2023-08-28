@@ -1,5 +1,6 @@
 .galleryMob-section {
   @extend %section;
+  padding-bottom: 80px;
 
   @media screen and (min-width: 835px) {
     display: none;

@@ -1,5 +1,6 @@
 .galleryDesc-section {
   @extend %section;
+  padding-bottom: 100px;
 
   @media screen and (max-width: 1439px) {
     display: none;
