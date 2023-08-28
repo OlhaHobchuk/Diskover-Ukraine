@@ -108,6 +108,7 @@
   z-index: 1;
   @media screen and (min-width: 835px) {
     width: 460px;
+    transform: scale(1, -1) translateX(-45%);
     top: 50%;
     font-size: 128px;
   }
