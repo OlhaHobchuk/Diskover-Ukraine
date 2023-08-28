@@ -1,0 +1,184 @@
+.ourToursDesc-section {
+  padding-top: 100px;
+  background-image: url(../images/ourToursBgDesc.png);
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 32px;
+
+  @media screen and(max-width: 1439px) {
+    display: none;
+  }
+}
+
+.ourToursDesc-section__tittle {
+  margin-bottom: 64px;
+  text-align: center;
+  font-family: Jomolhari;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.64px;
+  color: var(--primary-white-color);
+}
+
+.ourToursDesc-section__slide {
+  display: flex;
+  column-gap: 32px;
+}
+
+.ourToursDesc-section__inner-slide-wrapper {
+  width: calc((100% - 32px) / 2);
+}
+
+.ourToursDesc-section__slide-image-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.ourToursDesc-section__slide-info-wrapper {
+  padding-left: 32px;
+  padding-right: 170px;
+}
+
+.ourToursDesc-section__slide-info-tittle {
+  margin-bottom: 32px;
+
+  font-family: Jomolhari;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.32px;
+  color: var(--primary-white-color);
+}
+
+.ourToursDesc-section__slide-info-shedule-list {
+  margin-bottom: 18px;
+  margin-left: 16px;
+  list-style: disc;
+}
+
+.ourToursDesc-section__slide-info-shedule-item {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.16px;
+  color: var(--primary-white-color);
+}
+
+.ourToursDesc-section__slide-list {
+  margin-bottom: 33px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-family: Jomolhari;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.18px;
+  color: var(--primary-white-color);
+}
+
+.ourToursDesc-section__slide-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 16px;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.16px;
+  color: var(--primary-white-color);
+}
+
+.ourToursDesc-section__slide-icon {
+  fill: currentColor;
+}
+
+.ourToursDesc-section__slide-booking-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourToursDesc-section__slide-booking-button {
+  width: 144px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Jomolhari;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.16px;
+  color: var(--primary-white-color);
+  border-radius: 4px;
+  background: var(--accent-color);
+  transition: border 250ms var(--main-timing-function),
+    background-color 250ms var(--main-timing-function);
+  cursor: pointer;
+}
+
+.ourToursDesc-section__slide-booking-button:hover,
+.ourToursDesc-section__slide-booking-button:focus {
+  border: 1px solid var(--primary-white-color);
+  background-color: var(--background-color);
+}
+
+.ourToursDesc-section__slide-booking-price {
+  font-family: Jomolhari;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.32px;
+  color: var(--primary-white-color);
+}
+
+.ourToursDesc-section__slide-booking-price-amount {
+  font-family: Jomolhari;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.32px;
+  color: var(--primary-white-color);
+}
+
+.ourToursDesc-section__navigation-wrapper {
+  height: 120px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.ourToursDesc-section__navigation-button1 {
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  color: #5a5959;
+  transition: color 250ms var(--main-timing-function);
+}
+
+.ourToursDesc-section__navigation-button2 {
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  color: #5a5959;
+  transition: color 250ms var(--main-timing-function);
+}
+
+.ourToursDesc-section__navigation-icon {
+  fill: currentColor;
+}
+
+.ourToursDesc-section__navigation-button1:hover,
+.ourToursDesc-section__navigation-button1:focus,
+.ourToursDesc-section__navigation-button2:hover,
+.ourToursDesc-section__navigation-button2:focus {
+  color: var(--primary-white-color);
+}

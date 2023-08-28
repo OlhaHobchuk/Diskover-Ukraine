@@ -3,12 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Unlock the Wonders of Ukraine</title>
+    <link rel="icon" type="image/x-icon" href="./images/ukrainian_flag.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <main>
+      <include src="./partials/headerMob.html"></include>
+      <include src="./partials/header.html"></include>
+
+      <include src="./partials/hero.html"></include>
+      <include src="./partials/aboutUs.html"></include>
+      <include src="./partials/ourTours.html"></include>
+      <include src="./partials/ourToursDesc.html"></include>
+      <include src="./partials/galleryMob.html"></include>
+      <include src="./partials/galleryTab.html"></include>
+      <include src="./partials/galleryDesc.html"></include>
+      <include src="./partials/reviewsMob.html"></include>
+      <include src="./partials/reviewsTab.html"></include>
+      <include src="./partials/reviewsDesc.html"></include>
+      <include src="./partials/startTavel.html"></include>
+      <include src="./partials/mobileMenu.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>
