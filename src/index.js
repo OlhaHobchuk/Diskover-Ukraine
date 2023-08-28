@@ -7,16 +7,6 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-// const swiperEl = new Swiper('.swiper', {
-//   direction: 'horizontal',
-//   loop: true,
-
-//   navigation: {
-//     nextEl: '.nextElGallery',
-//     prevEl: '.prevElGallery',
-//   },
-// });
-
 // mobile-menu
 
 (() => {
